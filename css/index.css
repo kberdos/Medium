@@ -1,0 +1,39 @@
+body{
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    text-align: center;
+    padding-top:10em;
+  }
+
+  @keyframes bgcolor {
+    0% {
+        background-color: #062B79
+    }
+
+    20% {
+        background-color: #16498A
+    }
+
+    40% {
+        background-color: #5995B7
+    }
+
+    60% {
+        background-color: #FAFBBD
+    }
+
+    80% {
+        background-color: #FDE050
+    }
+
+    100% {
+      background-color: #F1B351
+    }
+
+}
+
+#title{
+    font-size: 2em;
+}
