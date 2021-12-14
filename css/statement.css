@@ -27,9 +27,6 @@ mark {
     font-size: 30px;
   }
 
-#titleContainer{
-    font-size: 2em;
-    width: 50%;
-    text-align: center;
-    margin: auto;
+#title{
+  font-family: "RansomNote", "Trattatello";
 }

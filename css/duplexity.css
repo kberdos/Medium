@@ -3,6 +3,7 @@ body {
 	color: #FFF;
 	font: 14px Baskerville, "Palatino Linotype", "Times New Roman", Times, serif;
 	text-align: center;
+    transition: background-color 1s;
 	}
 	
 div, h1, h2, p {

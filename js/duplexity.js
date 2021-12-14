@@ -56,7 +56,7 @@ var textTwo =
                 'You make me believe that<br> '+
                 'I can truly be happy with someone<br> '+
                 'Nothing you do is going to make me say<br> '+
-                'I hate you<br> ';
+                'I hate you<br><br>';
 
 var text = [textOne, textTwo];
 var counter = 1;
