@@ -35,5 +35,9 @@ body{
 }
 
 #title{
-    font-size: 2em;
+    font-size: 200%;
+}
+
+#author{
+    font-family: "Smooch", "Times New Roman";
 }
