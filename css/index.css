@@ -38,6 +38,12 @@ body{
     font-size: 200%;
 }
 
+@media (max-width: 768px) {
+    #title {
+        font-size: 100%;
+    }
+}
+
 #author{
     font-family: "Smooch", "Times New Roman";
 }
