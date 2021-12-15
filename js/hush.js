@@ -9,3 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
     $('.materialboxed').materialbox();
   });
 
+document.getElementById("playBtn").addEventListener("click", e=>{
+  document.getElementById("audio").play();
+});
