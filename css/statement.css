@@ -30,3 +30,7 @@ mark {
 #title{
   font-family: "RansomNote", "Trattatello", "Times New Roman";
 }
+
+body{
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/beanstalk.png");
+}
