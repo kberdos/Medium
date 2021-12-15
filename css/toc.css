@@ -1,0 +1,19 @@
+#title{
+    font-family: "RansomNote", "Trattatello", "Times New Roman";
+}
+
+#container{
+    width: 40%;
+    margin: auto;
+    text-align: left;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+#btnContainer{
+    text-align: center;
+}
