@@ -1,24 +1,30 @@
 @keyframes bgcolor {
     0% {
-        background-color: #1c6196
+        background-color: #fc7e42;
+        color:black;
     }
 
     25% {
-        background-color: #3d5392
+        background-color: #f5bc93;
+        color:black;
     }
 
     50% {
-        background-color: #49407e
+        background-color: #bec6d3;
+        color: black;
     }
 
     75% {
-        background-color: #4e2f76
+        background-color: #768b9c;
+        color: black;
     }
 
     100% {
-        background-color: #521d6b
+        background-color: #182140;
+        color: white;
     }
 }
+
 
 audio {
     filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
@@ -60,7 +66,7 @@ h1 {
     }
 
 h2 {
-    color: white;
+    color: black;
     font-size: 18px;
     font-style: italic;
     margin-bottom: 30px;
@@ -103,4 +109,10 @@ h2:after {
     width: 100%;
     margin: auto;
     text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
