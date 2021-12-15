@@ -1,10 +1,11 @@
 document.getElementById('flipButton').addEventListener("click", e=> {
     document.body.classList.toggle("light-mode");
-    elem.fadeOut(function(){
-        elem.html(text[counter]);
+    poemText.fadeOut(function(){
+        poemText.html(text[counter]);
+        subHeading.html(subHeadings[counter]);
         counter++;
         if(counter >= text.length) { counter = 0; }
-        elem.fadeIn();
+        poemText.fadeIn();
     });
 });
 
@@ -20,7 +21,7 @@ var textOne =
                 'Our relationship can\'t improve<br> '+
                 'I can\'t stand all the people who say<br> '+
                 'Two souls can love forever<br> '+
-                'I belive with all my mind that<br> '+
+                'I believe with all my mind that<br> '+
                 'You hurt me beyond repair<br> '+
                 'And even when <br> '+
                 'We hold hands in the moonlight<br> '+
@@ -45,7 +46,7 @@ var textTwo =
                 'We hold hands in the moonlight<br> '+
                 'And even when <br> '+
                 'You hurt me beyond repair<br> '+
-                'I belive with all my mind that<br> '+
+                'I beleive with all my mind that<br> '+
                 'Two souls can love forever<br> '+
                 'I can\'t stand all the people who say<br> '+
                 'Our relationship can\'t improve<br> '+
@@ -59,5 +60,7 @@ var textTwo =
                 'I hate you<br><br>';
 
 var text = [textOne, textTwo];
+var subHeadings = [" love is only a word ", " the only word is love "];
 var counter = 1;
-var elem = $("#text");
+var poemText = $("#text");
+var subHeading = $("#subHeading");
