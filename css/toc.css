@@ -12,8 +12,43 @@ a{
     color: black;
     text-decoration: none;
     font-size: 2em;
+    transition: color 1s ease;
 }
 
 #btnContainer{
     text-align: center;
+}
+
+a.effect-shine:hover {
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s infinite;
+  }
+  
+  @-webkit-keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    
+    to {
+      -webkit-mask-position: -50%;
+    }
+}
+
+#duplexity:hover{
+  background: -webkit-linear-gradient(#f50057, #ff1744);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#hush:hover{
+    background: -webkit-linear-gradient(#3f76a3, #2e50c9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#nocturne:hover{
+    background: -webkit-linear-gradient(#4e2f76, #521d6b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
