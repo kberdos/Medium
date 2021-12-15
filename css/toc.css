@@ -56,3 +56,9 @@ a.effect-shine:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+#knight:hover{
+  background: -webkit-linear-gradient(#d5df1a, #d89e0c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
