@@ -10,6 +10,10 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 weakBtn.addEventListener("click", e=>{
+
+  document.getElementById("audio1").pause();
+  document.getElementById("audio2").currentTime = 0;
+  document.getElementById("audio2").play();
   document.body.classList.add("weak-mode");
   document.getElementById("knight").style.color = "black";
   document.getElementById("your").style.color = "#F51720";
@@ -17,6 +21,9 @@ weakBtn.addEventListener("click", e=>{
 });
 
 confBtn.addEventListener("click", e=>{
+  document.getElementById("audio2").pause();
+  document.getElementById("audio1").currentTime = 0;
+  document.getElementById("audio1").play();
   document.body.classList.remove("weak-mode");
   document.getElementById("your").style.color = "black";
   document.getElementById("knight").style.color = "#F51720";

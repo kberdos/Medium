@@ -1,22 +1,22 @@
 @keyframes bgcolor {
     0% {
-        background-color: #1c6196
+        background-color: #FEF1E6
     }
 
     25% {
-        background-color: #3d5392
+        background-color: #F9D5A7
     }
 
     50% {
-        background-color: #49407e
+        background-color: #FFB085
     }
 
     75% {
-        background-color: #4e2f76
+        background-color: #90AACB
     }
 
     100% {
-        background-color: #521d6b
+        background-color: #90AACB
     }
 }
 
@@ -31,7 +31,7 @@ body {
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
     text-align: center;
-    color: white;
+    color: black;
 	font: 14px Baskerville, "Palatino Linotype", "Times New Roman", Times, serif;
 	text-align: center;
 	}
@@ -60,7 +60,7 @@ h1 {
     }
 
 h2 {
-    color: white;
+    color: black;
     font-size: 18px;
     font-style: italic;
     margin-bottom: 30px;

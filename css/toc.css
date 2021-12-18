@@ -68,3 +68,15 @@ a.effect-shine:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+#ineffectual:hover{
+  background: -webkit-linear-gradient(#183a23, #0c0d49);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#undeniable:hover{
+  background: -webkit-linear-gradient(#90AACB, #FFB085);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
