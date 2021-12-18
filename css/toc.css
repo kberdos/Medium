@@ -62,3 +62,9 @@ a.effect-shine:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+#rainstorm:hover{
+  background: -webkit-linear-gradient(#4a6583, #ffd740);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

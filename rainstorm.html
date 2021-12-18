@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>If you were a Rainstorm</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link rel="stylesheet" href="css/rainstorm.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <main>
+            <div id = "poem">
+                <h1>If you were a Rainstorm</h1>
+
+                <h2 id = "subHeading"> An Interactive Poem </h2>
+            </div>
+               
+
+            <div id = "btnContainer">
+                <button id = "flipButton" class="btn-floating btn-large waves-effect waves-light deep-purple lighten-1" onclick = begin()><i class="material-icons">play_arrow</i></button>
+            </div>
+
+            <br><br>
+<pre class="typewriter" id = "intro" style = "display: none">
+    If you were a rainstorm I’d stand in you,
+    And listen closely to your rhythmic sounds.
+    I’d let my heart soak gently in the dew,
+    As I gather your footsteps off the ground. 
+    <br>
+    <div class = "optionBtnCont" id = "introBtn">
+        <button class="waves-effect waves-light btn amber darken-2" onclick = 'displaySection("oneA")'>Go on...</button>  <button class="waves-effect waves-light btn amber darken-2" onclick = 'displaySection("oneB")'>Who are you?</button> 
+    </div>   
+</pre>
+
+<pre class="typewriter" id = "oneA" style = "display: none">
+    Become my collection, become my prize,
+    Each drop of your soul makes me want to cry.
+    Your mist a gentle kiss between my eyes, 
+    How you strum and straddle the velvet sky
+    <br>
+    <div class = "optionBtnCont" id = "oneABtn">
+        <button class="waves-effect waves-light btn amber darken-2" onclick = 'displaySection("oneAA")'>I'm moved by your words</button>  <button class="waves-effect waves-light btn amber darken-2" onclick = 'displaySection("oneAB")'>You're starting to scare me!</button> 
+    </div>   
+</pre>
+
+<pre class="typewriter" id = "oneB" style = "display: none">
+    I travel swift, like wind in a rush,
+    I slide and slip, to catch your guise.
+    But never see my quaking hush,
+    Lest I’ll lose fast my precious prize
+    <br>
+    <div class = "optionBtnCont" id = "oneBBtn">
+        <button class="waves-effect waves-light btn amber darken-2" onclick = 'displaySection("oneBA")'>Ok, I'll give you a chance</button>  <button class="waves-effect waves-light btn amber darken-2" onclick = 'displaySection("oneBB")'>Leave me alone!</button> 
+    </div>   
+</pre>
+
+<pre class="typewriter" id = "oneAA" style = "display: none">
+    My yearning leaves sprout swiftly from their tree,
+    Like open arms reaching for just a taste.
+    Will you nourish my everlasting plea? 
+    Dear, don’t let my buds go to waste.
+    <br>
+    <div class = "optionBtnCont" id = "oneAABtn">
+        <button class="waves-effect waves-light btn amber darken-2" onclick = 'displaySection("oneAAA")'>I will</button>  <button class="waves-effect waves-light btn amber darken-2" onclick = 'displaySection("oneBBB")'>Ew, no!</button> 
+    </div>   
+</pre>
+
+<pre class="typewriter" id = "oneAB" style = "display: none">
+    No need to fear, I’m here to trust,
+    To figure out what makes you brew,
+    You paradox, you gentle gust
+    Electric you, we’ll start anew
+    <br>
+    <div class = "optionBtnCont" id = "oneABBtn">
+        <button class="waves-effect waves-light btn amber darken-2" onclick = 'displaySection("oneAAA")'>Fine, I'll give it a chance</button>  <button class="waves-effect waves-light btn amber darken-2" onclick = 'displaySection("oneBBB")'>Stand back, or I'll fry you!</button> 
+    </div>   
+</pre>
+
+<pre class="typewriter" id = "oneBA" style = "display: none">
+    My yearning leaves sprout swiftly from their tree,
+    Like open arms reaching for just a taste.
+    Will you nourish my everlasting plea? 
+    Dear, don’t let my buds go to waste.
+    <br>
+    <div class = "optionBtnCont" id = "oneBABtn">
+        <button class="waves-effect waves-light btn amber darken-2" onclick = 'displaySection("oneAAA")'>I will</button>  <button class="waves-effect waves-light btn amber darken-2" onclick = 'displaySection("oneBBB")'>Not a chance!</button> 
+    </div>   
+</pre>
+
+<pre class="typewriter" id = "oneBB" style = "display: none">
+    you pour on me your hatred and disgust 
+    you presume my strive for you is out of lust
+    you weather is poor, the wind unjust,
+    take this rose, nurture it, darling you must! 
+    <br>
+    <div class = "optionBtnCont" id = "oneBBBtn">
+        <button class="waves-effect waves-light btn amber darken-2" onclick = 'displaySection("oneBBB")'>Stop embarrassing yourself</button>  <button class="waves-effect waves-light btn amber darken-2" onclick = 'displaySection("oneBBB")'>Get out of here!</button> 
+    </div>   
+</pre>
+
+<pre class="typewriter" id = "oneAAA" style = "display: none">
+    Your pour on me your tender trust,
+    That I’ll be around even through your gusts
+    And in the night when you’ve gone mute,
+    I’ll extract your warmth from the earth to my roots.
+
+    And even if the world goes dry
+    We’ll drizzle together up in the sky.
+    
+    fin.
+</pre>
+
+<pre class="typewriter" id = "oneBBB" style = "display: none">
+    They say with rain comes fresh new starts
+    A time to wash away a frowning face 
+    But now I know it’s best to stay apart
+    My world dried up, I’ll crumble in this place
+
+    Oh Belle, I can’t withstand anymore your art,
+    With your defiance you’ve broken this little plant’s heart.
+    
+    fin.
+</pre>         
+        </main>
+        <Script src = "js/rainstorm.js"></Script>
+    </body>
+</html>
+
